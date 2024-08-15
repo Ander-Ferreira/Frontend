@@ -1,0 +1,3 @@
+//Criando projeto com next.js
+
+npx create-next-app@latest
