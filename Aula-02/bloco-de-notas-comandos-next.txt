@@ -19,7 +19,22 @@ ctrl , abre as configurações do vs code
 npm run dev
 
 //Extensões
+
 Easy Snippet
+
+//Atalhos
+Ctrl / espaço ao final da palavra
+
+
+//Executar Bootstrap
+
+npm install react-bootstrap bootstrap
+
+//Importar o Css
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 ctrl shift p, seleciona save from selection
 
