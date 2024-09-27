@@ -3,6 +3,7 @@
 'use client'
 import Pagina from "@/app/components/Pagina";
 import apiMovie from "@/services/apiMovies";
+import Link from "next/link";
 
 import { useEffect, useState } from "react";
 import { Button, Card, Col, Row } from "react-bootstrap";
@@ -43,7 +44,8 @@ export default function Disney(){
                                         {item.createdAt}<br/>
                                         {item.updatedAt}<br/>
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Link className="btn btn-danger" href={`/filmes/${item.id}`}></Link>
+
                                 </Card.Body>
                             </Card>
                     </Col>
